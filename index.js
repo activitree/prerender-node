@@ -35,10 +35,20 @@ var prerender = module.exports = function(req, res, next) {
 };
 
 prerender.crawlerUserAgents = [
+  'feedly',
+  'disqus',
   'googlebot',
-  'Yahoo! Slurp',
+  'Google-Structured-Data-Testing-Tool',
+  'Feedfetcher-Google',
+  'Slurp',
   'bingbot',
+  'BingPreview',
+  'DuckDuckBot',
   'framely',
+  'Sogou',
+  'spbot',
+  'soso',
+  'exabot',
   'Discourse',
   'yandex',
   'baiduspider',
@@ -67,9 +77,16 @@ prerender.crawlerUserAgents = [
   'Google Page Speed',
   'Qwantify',
   'pinterestbot',
+  'pinterest.com.bot',
   'Bitrix link preview',
   'XING-contenttabreceiver',
-  'Chrome-Lighthouse'
+  'Chrome-Lighthouse',
+  'frog',
+  'Yahoo Link Preview',
+  'PiplBot',
+  'telegrambot',
+  'mediatoolkitbot',
+  'Amazonbot'
 ];
 
 

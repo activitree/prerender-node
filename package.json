@@ -1,13 +1,13 @@
 {
-  "name": "prerender-node",
-  "version": "3.2.5",
+  "name": "@activitree/prerender-node",
+  "version": "3.2.8",
   "description": "express middleware for serving prerendered javascript-rendered pages for SEO",
   "author": "Todd Hooper",
   "license": "MIT",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/prerender/prerender-node"
+    "url": "https://github.com/activitree/prerender-node.git"
   },
   "keywords": [
     "angular",
